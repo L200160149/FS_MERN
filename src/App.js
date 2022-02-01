@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Router>
         {/* jika tanpa exact maka semua Route akan di render */}
-        <Route exact path="/" component={LandingPage}></Route>
-        <Route exact path="/properties/:id" component={DetailsPage}></Route>
-        <Route exact path="/checkout" component={Checkout}></Route>
-        <Route path="/example" component={Example}></Route>
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/properties/:id" component={DetailsPage} />
+        <Route path="/checkout" component={Checkout} />
+        <Route path="/example" component={Example} />
       </Router>
     </div>
   );
